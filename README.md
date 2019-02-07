@@ -24,12 +24,22 @@ The purpose of this repository is to showcase some personal work.
 Directory listing -
 
 --feudal_kingdom
+
   |
+  
   --app
+  
     [ Contains the bulk of the web-app            ]
+    
     |
+    
     --static
+    
       [ Contains static javacript and css files.  ]
+      
       |
+      
     --templates
+    
       [ Contains HTML Jinja template files.       ]
+      
