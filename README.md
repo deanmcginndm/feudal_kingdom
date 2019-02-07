@@ -18,3 +18,18 @@ This would not work to simply download the repo.
 There is a database file, and also some image files that are required in order for the application to function correctly.
 
 The purpose of this repository is to showcase some personal work.
+
+
+---
+Directory listing -
+
+--feudal_kingdom
+  |
+  --app
+    [ Contains the bulk of the web-app            ]
+    |
+    --static
+      [ Contains static javacript and css files.  ]
+      |
+    --templates
+      [ Contains HTML Jinja template files.       ]
