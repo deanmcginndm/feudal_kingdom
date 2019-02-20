@@ -28,7 +28,7 @@ class User(UserMixin, db.Model):
 
     def __init__(self, email, plaintext_password):
         self.email = email
-        self.password_hash = plaintext_password
+        self.password_hash = self.set_password(plaintext_password)
         self.authenticated = False
 
     def __repr__(self):
